@@ -25,8 +25,9 @@
         android:minHeight="?attr/actionBarSize"
         android:id="@+id/toolbarSliderScreenTop"
         app:buttonGravity="bottom"
+        app:contentInsetStart="0dp"
         android:layout_alignParentBottom="true"
-        app:contentInsetStart="0dp">
+        android:layout_alignParentStart="true">
 
         <Button
             android:layout_width="wrap_content"
